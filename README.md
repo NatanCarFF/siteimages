@@ -108,3 +108,61 @@ Vou te guiar passo a passo para criar um site no GitHub que exiba apenas imagens
 4. **Acesse seu site**:
    - Após alguns minutos, seu site estará disponível em uma URL como `https://username.github.io/meus-imagens/`.
 
+--------------------------------------
+
+A estrutura básica dos arquivos do seu repositório para o site de imagens no GitHub deve ser algo assim:
+
+```
+meus-imagens/
+│
+├── images/
+│   ├── imagem1.jpg
+│   ├── imagem2.jpg
+│   └── imagem3.jpg
+│
+├── index.html
+├── README.md
+└── .gitignore
+```
+
+Aqui está uma descrição do que cada arquivo e pasta representa:
+
+- **`images/`**: Pasta onde você armazena as imagens que deseja exibir no seu site. Coloque todas as suas imagens nesta pasta.
+  - **`imagem1.jpg`**: Um exemplo de arquivo de imagem. Substitua ou adicione suas próprias imagens aqui.
+
+- **`index.html`**: O arquivo HTML principal do seu site. É onde você define a estrutura e o conteúdo do site, incluindo o código para exibir as imagens.
+
+- **`README.md`**: Arquivo opcional que pode conter uma descrição do seu projeto, como configurar ou contribuir com o repositório. Este arquivo é útil, mas não é necessário para o funcionamento do GitHub Pages.
+
+- **`.gitignore`**: Arquivo opcional que especifica quais arquivos ou diretórios o Git deve ignorar. Pode ser útil se você tiver arquivos temporários ou outros arquivos que não deseja versionar. Para um projeto simples como este, você pode deixá-lo vazio ou adicionar padrões de arquivos a serem ignorados.
+
+### Como Criar Cada Arquivo/Pasta
+
+1. **Criação da Pasta e Adição de Imagens**:
+   - Crie uma pasta chamada `images` no diretório principal do seu repositório.
+   - Adicione suas imagens na pasta `images`.
+
+2. **Criação do Arquivo `index.html`**:
+   - No diretório principal, crie um arquivo chamado `index.html`.
+   - Adicione o código HTML que exibe suas imagens.
+
+3. **Criação do Arquivo `README.md` (opcional)**:
+   - No diretório principal, crie um arquivo chamado `README.md` se desejar.
+   - Escreva uma descrição ou instruções no arquivo.
+
+4. **Criação do Arquivo `.gitignore` (opcional)**:
+   - No diretório principal, crie um arquivo chamado `.gitignore` se desejar.
+   - Adicione padrões de arquivos para ignorar, se necessário.
+
+### Exemplo de Estrutura de Diretórios no Terminal
+
+Se você estiver usando a linha de comando, pode criar a estrutura de diretórios e arquivos com os seguintes comandos:
+
+```bash
+mkdir meus-imagens
+cd meus-imagens
+mkdir images
+touch index.html README.md .gitignore
+```
+
+Depois, você pode adicionar suas imagens na pasta `images` e editar o arquivo `index.html` conforme necessário.
